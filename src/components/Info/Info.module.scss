@@ -1,0 +1,26 @@
+.info {
+  margin-bottom: 202px;
+  width: 100%;
+  max-width: 1110px;
+  height: 600px;
+  background: #191826;
+  border-radius: 12px;
+  position: relative;
+
+  img {
+    width: 312px;
+    height: 642px;
+    position: absolute;
+    left: 102px;
+    top: -213px;
+    z-index: 2;
+  }
+  svg {
+    width: 312px;
+    height: 642px;
+    position: absolute;
+    left: 328px;
+    top: -38px;
+    z-index: 1;
+  }
+}

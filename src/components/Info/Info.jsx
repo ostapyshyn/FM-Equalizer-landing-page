@@ -1,15 +1,16 @@
 import React from 'react';
+import styles from './Info.module.scss';
+import phone from '../../assets/illustration-app.png';
+import { ReactComponent as Logo } from '../../assets/bg-pattern-2.svg';
+import Card from '../Card/Card';
 
 const Info = () => {
   return (
-    <div>
-      <h2>Premium EQ</h2>
-      <p>
-        Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your
-        listening experience to a whole new level and access all our incredible features!
-      </p>
-      <p>$4 / month</p>
-    </div>
+    <section className={styles.info}>
+      <img src={phone} alt="phone" />
+      <Logo />
+      <Card />
+    </section>
   );
 };
 

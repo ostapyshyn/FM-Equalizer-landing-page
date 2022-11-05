@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+  justify-content: space-between;
+  p {
+    transform: translateX(-113px);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    span {
+      font-weight: 700;
+    }
+  }
+  ul {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+  }
+}

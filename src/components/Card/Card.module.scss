@@ -1,0 +1,46 @@
+.card {
+  color: white;
+  background: #fa7453;
+  padding-left: 54px;
+  padding-right: 59px;
+  max-width: 446px;
+  position: absolute;
+  right: 0;
+  padding-top: 58px;
+  border-radius: 12px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fcfaf9;
+    border-radius: 12px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #fcfaf9;
+    margin-bottom: 40px;
+  }
+  .price {
+    margin-bottom: 46px;
+    span {
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 52px;
+      color: #fcfaf9;
+      margin-right: 16px;
+    }
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #fcfaf9;
+
+    display: flex;
+    align-items: center;
+  }
+}
