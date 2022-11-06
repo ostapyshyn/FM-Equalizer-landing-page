@@ -1,9 +1,17 @@
+@import '../../index.scss';
+
 .header {
   max-width: 1110px;
   width: 100%;
   margin-bottom: 321px;
+  @include mq(1200px) {
+    margin-bottom: 249px;
+  }
   svg {
     margin-bottom: 127px;
+    @include mq(1200px) {
+      margin-bottom: 95px;
+    }
   }
 
   h1 {
@@ -14,6 +22,18 @@
     color: #191826;
     margin-bottom: 40px;
     max-width: 865px;
+    @include mq(1200px) {
+      max-width: 520px;
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: -0.727273px;
+      margin-bottom: 28px;
+    }
+    // @include mq(992px) {
+    //   font-size: 64px;
+    //   line-height: 64px;
+    //   letter-spacing: -0.727273px;
+    // }
   }
 
   p {
@@ -22,5 +42,10 @@
     line-height: 34px;
     color: #191826;
     max-width: 865px;
+    @include mq(1200px) {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 514px;
+    }
   }
 }

@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
+  // transition: all 0.2s ease-in-out;
 }
 
 img,
@@ -51,6 +51,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding-top: 62px;
   padding-bottom: 91px;
+  background-image: url(./assets/bg-pattern-1.svg);
+  background-repeat: no-repeat;
+  background-position: right -40px;
+
+  @include mq(1200px) {
+    padding-inline: 40px;
+    background-size: 267px 400px;
+    background-position: right -41px top -31px;
+  }
 }
 
 code {

@@ -8,7 +8,7 @@ const Info = () => {
   return (
     <section className={styles.info}>
       <img src={phone} alt="phone" />
-      <Logo />
+      <Logo className={styles.svg} />
       <Card />
     </section>
   );

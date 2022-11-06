@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './Card.module.scss';
+import { ReactComponent as IOS } from '../../assets/icon-apple.svg';
+import { ReactComponent as Android } from '../../assets/icon-android.svg';
 
 const Card = () => {
   return (
@@ -12,6 +14,14 @@ const Card = () => {
       <p className={styles.price}>
         <span>$4 </span>/ month
       </p>
+      <button>
+        <IOS /> iOS Download
+      </button>
+
+      <button className={styles.android}>
+        <Android />
+        Android Download
+      </button>
     </section>
   );
 };
