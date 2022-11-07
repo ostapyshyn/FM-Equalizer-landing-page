@@ -7,10 +7,16 @@
   @include mq(1200px) {
     margin-bottom: 249px;
   }
+  @include mq(760px) {
+    margin-bottom: 165px;
+  }
   svg {
     margin-bottom: 127px;
     @include mq(1200px) {
       margin-bottom: 95px;
+    }
+    @include mq(760px) {
+      margin-bottom: 64px;
     }
   }
 
@@ -29,11 +35,11 @@
       letter-spacing: -0.727273px;
       margin-bottom: 28px;
     }
-    // @include mq(992px) {
-    //   font-size: 64px;
-    //   line-height: 64px;
-    //   letter-spacing: -0.727273px;
-    // }
+    @include mq(760px) {
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -0.454545px;
+    }
   }
 
   p {
@@ -46,6 +52,10 @@
       font-size: 18px;
       line-height: 28px;
       max-width: 514px;
+    }
+    @include mq(760px) {
+      font-size: 16px;
+      line-height: 26px;
     }
   }
 }

@@ -8,7 +8,7 @@ import styles from './Footer.module.scss';
 const Footer = () => {
   return (
     <section className={styles.footer}>
-      <Logo />
+      <Logo className={styles.logo} />
       <p>
         All rights reserved © Equalizer 2021 <br /> Have any problems? Contact us via social media
         or

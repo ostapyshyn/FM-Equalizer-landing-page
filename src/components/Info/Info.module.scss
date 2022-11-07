@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .info {
   margin-bottom: 202px;
   width: 100%;
@@ -14,6 +16,12 @@
     left: 102px;
     top: -213px;
     z-index: 2;
+    @include mq(1200px) {
+      width: 270px;
+      height: 556px;
+      left: 65px;
+      top: -138px;
+    }
   }
   .svg {
     width: 312px;
@@ -22,5 +30,10 @@
     left: 328px;
     top: -38px;
     z-index: 1;
+    @include mq(1200px) {
+      width: 280px;
+      height: 420px;
+      left: 265px;
+    }
   }
 }

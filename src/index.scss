@@ -59,6 +59,11 @@ body {
     padding-inline: 40px;
     background-size: 267px 400px;
     background-position: right -41px top -31px;
+    padding-bottom: 85px;
+  }
+  @include mq(760px) {
+    background-image: none;
+    padding-top: 40px;
   }
 }
 

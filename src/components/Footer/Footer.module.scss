@@ -1,8 +1,20 @@
+@import '../../index.scss';
+
 .footer {
   display: flex;
   width: 100%;
   max-width: 1110px;
   justify-content: space-between;
+  .logo {
+    @include mq(1200px) {
+      width: 100%;
+      margin-bottom: 32px;
+    }
+  }
+  @include mq(1200px) {
+    flex-wrap: wrap;
+  }
+
   p {
     transform: translateX(-113px);
     font-weight: 400;
@@ -11,6 +23,10 @@
     color: #191826;
     span {
       font-weight: 700;
+    }
+    @include mq(1200px) {
+      flex-wrap: wrap;
+      transform: translateX(0);
     }
   }
   ul {
