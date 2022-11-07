@@ -12,7 +12,7 @@ const Footer = () => {
       <p>
         All rights reserved © Equalizer 2021 <br /> Have any problems? Contact us via social media
         or
-        <br /> email us at <span>equalizer@example.com</span>
+        <span className={styles.email}> email us at</span> <span>equalizer@example.com</span>
       </p>
       <ul>
         <li>

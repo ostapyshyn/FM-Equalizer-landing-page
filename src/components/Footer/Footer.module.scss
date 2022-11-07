@@ -23,10 +23,21 @@
     color: #191826;
     span {
       font-weight: 700;
+      @include mq(760px) {
+        display: block;
+      }
     }
     @include mq(1200px) {
       flex-wrap: wrap;
       transform: translateX(0);
+    }
+    
+    .email {
+      font-weight: 300;
+      display: block;
+      @include mq(760px) {
+        display: inline;
+      }
     }
   }
   ul {
