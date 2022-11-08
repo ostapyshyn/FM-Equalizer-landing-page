@@ -11,8 +11,7 @@ const Footer = () => {
       <Logo className={styles.logo} />
       <p>
         All rights reserved © Equalizer 2021 <br /> Have any problems? Contact us via social media
-        or
-        <span className={styles.email}> email us at</span> <span>equalizer@example.com</span>
+        or email us at <span>equalizer@example.com</span>
       </p>
       <ul>
         <li>

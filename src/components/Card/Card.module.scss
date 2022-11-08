@@ -21,6 +21,14 @@
     right: 58px;
   }
 
+  @include mq(700px) {
+    left: 50%;
+    right: 0;
+    width: 100%;
+    top: 385px;
+    transform: translateX(-50%);
+  }
+
   h2 {
     font-weight: 700;
     font-size: 40px;
@@ -85,6 +93,12 @@
     align-items: center;
     justify-content: center;
     border: none;
+    cursor: pointer;
+
+    &:active {
+      transform: scale(0.98);
+      background: #66e2dc;
+    }
 
     svg {
       margin-right: 8px;
@@ -94,5 +108,8 @@
     background: #fcfaf9;
     color: #191826;
     margin-bottom: 0;
+    &:active {
+      background: #ffb964;
+    }
   }
 }
