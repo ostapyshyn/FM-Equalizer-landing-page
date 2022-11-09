@@ -54,6 +54,7 @@ body {
   background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-desktop.png);
   background-repeat: no-repeat;
   background-position: right -40px, center;
+  background-color: #fcfaf9;
 
   @include mq(1200px) {
     background-image: url(./assets/bg-pattern-1.svg), url(./assets/bg-main-tablet.png);
