@@ -1,2 +1,2 @@
-import Header from './Header';
-export default Header;
+import Info from './Info';
+export default Info;
